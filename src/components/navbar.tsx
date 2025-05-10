@@ -12,12 +12,12 @@ const Navbar = () => {
   return (
     <div className="bg-[#E9E9E9] sticky top-0 z-50">
     <nav className="w-full max-w-7xl mx-auto flex items-center justify-between h-[100px] px-4">
-      <div className="cursor-pointer">
+      <a className="cursor-pointer" href="#home">
         <h1 className="flex gap-2 items-center">
           <Image src='/logo.png' width={40} height={40} alt="logo"/>
           <p className="text-xl font-bold">Portfolio</p>
         </h1>
-      </div>
+      </a>
       <div className="md:hidden">
         <MenuMobile/>
       </div>
