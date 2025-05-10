@@ -40,7 +40,7 @@ const Contact = () => {
     <div className="flex flex-col items-center justify-center space-y-6 mb-16">
       <HeadText>Contact</HeadText>
       <Image src="/separatorBlack 6.png" alt="" width={130} height={170}></Image>
-      <div className="mx-auto w-4xl mt-8">
+      <div className="mx-auto w-full max-w-4xl mt-8">
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="mx-auto w-2/3 space-y-6">
             <FormField
